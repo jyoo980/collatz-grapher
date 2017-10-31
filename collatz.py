@@ -15,3 +15,9 @@ def collatz(n):
       steps += 1
     else:
       print("Error\n")
+
+
+def data_generator(n):
+  input_x = range(1, n + 1)
+  output_y = [collatz(num) for num in input_x]
+ 
