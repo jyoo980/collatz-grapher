@@ -10,6 +10,6 @@ Unfortunately, my program does nothing to prove the Collatz conjecture, but it d
 
 ![collatz-cmd](https://github.com/jyoo980/collatz-grapher/blob/master/media/collatz_command.png)
 
-To close off, here's quote about the Collatz conjecture by the famous mathematician Paul Erdos:
+In closing, here's a quote about the Collatz conjecture by the famous mathematician Paul Erdos:
 
 <p align="center"><strong><i>"Mathematics may not be ready for such problems"</i></strong></p>
