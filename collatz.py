@@ -24,6 +24,9 @@ def generate_data(n):
     x_data = range(1, n + 1)
     y_data = [collatz(n) for n in x_data]
     plt.scatter(x_data, y_data, s=0.5)
+    plt.title("Collatz Conjecture Visualization")
+    plt.xlabel("Input value")
+    plt.ylabel("Steps", rotation=0)
     plt.show()
 
 
