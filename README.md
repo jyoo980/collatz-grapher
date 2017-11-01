@@ -4,12 +4,12 @@ The <i>Collatz Conjecture</i> is a famous unsolved problem in mathetmatics which
 
 There is no complete formal proof of this conjecture, but it is widely believed to be true, even "large" numbers eventually reaching 1 after a series of steps. The result of my program can be seen below:
 
- ![collatz-graph](https://github.com/jyoo980/collatz-grapher/blob/master/plot_10000.png) 
+ ![collatz-graph](https://github.com/jyoo980/collatz-grapher/blob/master/media/plot_10000.png) 
 
 Unfortunately, my program does nothing to prove the Collatz conjecture, but it does produce a very pretty graph. You can run Collatz-Grapher exactly like I do in the photo below:
 
-![collatz-cmd](https://github.com/jyoo980/collatz-grapher/blob/master/collatz_command.png)
+![collatz-cmd](https://github.com/jyoo980/collatz-grapher/blob/master/media/collatz_command.png)
 
 To close off, here's quote about the Collatz conjecture by the famous mathematician Paul Erdos:
 
-<p align="center"><i>"Mathematics may not be ready for such problems"</i></p>
+<p align="center"><strong><i>"Mathematics may not be ready for such problems"</i></strong></p>
