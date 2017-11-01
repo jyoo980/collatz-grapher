@@ -2,11 +2,11 @@
 
 The <i>Collatz Conjecture</i> is a famous unsolved problem in mathetmatics which asks if all natural numbers will eventually reach 1 if they are continually passed  as arguments to a mapping <i>f</i>, defined as <i>f(n) = n / 2</i> if <i>n mod 2 = 0</i>, or <i>f(n) = 3n + 1</i> if <i>n mod 2 = 1</i>, for <i>n > 0</i>.
 
-There is no complete formal proof of this conjecture, but it is widely believed to be true, even "large" numbers eventually reaching 1 after a series of steps. The result of my program can be seen below:
+There is no complete formal proof of this conjecture, but it is widely believed to be true, even "large" numbers eventually reaching 1 after a series of steps. Unfortunately, my program does not prove the Collatz conjecture, but it does produce a very pretty graph, which you can see below:
 
  ![collatz-graph](https://github.com/jyoo980/collatz-grapher/blob/master/media/plot_10000.png) 
 
-Unfortunately, my program does nothing to prove the Collatz conjecture, but it does produce a very pretty graph. You can run Collatz-Grapher exactly like I do in the photo below:
+You can run Collatz-Grapher just by running some commands like I do below:
 
 ![collatz-cmd](https://github.com/jyoo980/collatz-grapher/blob/master/media/collatz_command.png)
 
