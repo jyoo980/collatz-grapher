@@ -12,7 +12,7 @@ You can run Collatz-Grapher just by running some commands like I do below:
 
 Here's what I want to do in the future, if you have any suggestions, feel free to make a PR!
 * Application of the collatz map to the input list is an example of an <i>embarassingly parallel problem</i>, I want to leverage 
-  parallelism to make this faster.
+  parallelism to make this faster. <strong>in progress</strong>
 * I want to investigate what causes the bottleneck at around `n ~ 1000000`, whether it's due to the limitation of the graphing module, or
   whether it is due to something else.
 
