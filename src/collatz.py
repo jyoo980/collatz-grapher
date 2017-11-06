@@ -1,3 +1,4 @@
+from multiprocessing import Pool
 import matplotlib.pyplot as plt
 
 #   collatz.py
@@ -22,7 +23,8 @@ def collatz(n):
 
 def generate_data(n):
     x_data = range(1, n + 1)
-    y_data = [collatz(x) for x in x_data]
+    p = Pool(10)
+    y_data = p.map(collatz, x_data) 
     plt.scatter(x_data, y_data, s=0.5)
     plt.title("Collatz Conjecture Visualization")
     plt.xlabel("Input value")
