@@ -52,7 +52,7 @@ def generate_path(n):
     y_data = p.map(collatz_path, x_data)
     
     for x_d, y_d in zip(x_data, y_data):
-        plt.scatter([x_d] * len(y_d), y_d)
+        plt.scatter([x_d] * len(y_d), y_d, s=0.5)
 
     plt.title("Collatz Path for Integers up to " + str(n))
     plt.xlabel("Input value")
