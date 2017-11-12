@@ -36,6 +36,8 @@ def collatz_path(n):
 
 
 def generate_steps(n):
+    """This function 'counts' how much applications of the collatz map a given number n requires
+    before reaching the value of 1."""
     x_data = range(1, n + 1)
     p = Pool(10)
     y_data = p.map(collatz, x_data) 
@@ -47,6 +49,8 @@ def generate_steps(n):
 
 
 def generate_path(n):
+    """This is a function which maps each input value to the 'path' it takes through the
+    Integers before reaching 1. For example, generate_path(3) -> [3, 10, 5, 16, 8, 4, 2, 1]."""
     x_data = range(1, n + 1)
     p = Pool(10)
     y_data = p.map(collatz_path, x_data)
@@ -61,6 +65,6 @@ def generate_path(n):
 
 
 upper = input("Enter the number you'd like to go up to: ")
-generate_path(int(upper))
+generate_steps(int(upper))
 
 
