@@ -1,6 +1,6 @@
 # Collatz-Grapher: math and hailstones #
 
-The [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) is a famous unsolved problem in mathetmatics which asks if all natural numbers will eventually reach 1 if they are continually passed  as arguments to a map <i>f</i>, defined as <i>f(n) = n / 2</i> if <i>n mod 2 = 0</i>, or <i>f(n) = 3n + 1</i> if <i>n mod 2 = 1</i>, for <i>n > 0</i>.
+The [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) is a famous unsolved problem in mathematics which asks if all natural numbers will eventually reach 1 if they are continually passed  as arguments to a map <i>f</i>, defined as <i>f(n) = n / 2</i> if <i>n mod 2 = 0</i>, or <i>f(n) = 3n + 1</i> if <i>n mod 2 = 1</i>, for <i>n > 0</i>.
 
 There is no complete formal proof of this conjecture, but it is widely believed to be true, even "large" numbers eventually reaching 1 after a series of steps. Unfortunately, my program does not prove the Collatz conjecture, but it does produce a very pretty graph, which you can see below:
 
